@@ -1,0 +1,686 @@
+#addStops,#date,.btn-icon,.car_info,.cursor-pointer,.remove-stop,.return-remove-stop,.rounded-pill,.switch-field label:hover {
+    cursor: pointer
+}
+
+.badge,.switch-field label {
+    line-height: 1;
+    text-align: center
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+:root {
+    --primarycolor: #1089ff;
+    --secondarycolor: #f0a500;
+    --blackcolor: #000
+}
+
+.main-section {
+    padding: 3rem
+}
+
+.bg-gray {
+    background-color: #ededee
+}
+
+.f-pass {
+    text-transform: uppercase;
+    color: #000
+}
+
+.form-check-input:checked {
+    background-color: #000;
+    border-color: #000
+}
+
+.nav-link.active {
+    font-weight: 700;
+    color: #f0a500;
+    border-bottom: 3px solid
+}
+
+.nav-link {
+    color: #fff!important
+}
+
+.animate_6s {
+    animation-duration: 3s!important
+}
+
+.animate_slowy {
+    animation-duration: 10s!important
+}
+
+.animate_slowest {
+    animation-duration: 30s!important
+}
+
+.couter_box {
+    display: flex;
+    margin-top: .5rem
+}
+
+.border_1,.border_1:hover {
+    border: 1px solid #000!important;
+    color: #000!important
+}
+
+.manage_btn {
+    border: 1px solid #fff!important
+}
+
+.counter_box .btn {
+    padding: 5px 10px;
+    cursor: pointer
+}
+
+.returnStop-template,.stop-template {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    color: red
+}
+
+.input-group-text {
+    border-radius: 0 .25rem .25rem 0!important
+}
+
+.car_selector.selected {
+    box-shadow: 0 0 10px;
+    display: block
+}
+
+.car_seat_box:hover .seat_img,.service-item:hover .car_selector img {
+    filter: opacity(.7)
+}
+
+.service-item .car_desc {
+    padding: 10px 0
+}
+
+.service-item {
+    border: 1px solid #d3d3d3;
+    margin-bottom: 1rem;
+    align-items: center;
+    border-radius: 12px
+}
+
+.max-height {
+    max-height: 340px;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding-right: 20px!important
+}
+
+.seat_img {
+    max-width: 100%;
+    background: #bcbcbd1f;
+    padding: 15px;
+    height: 100%;
+    width: auto;
+    object-fit: contain
+}
+
+.font-16 {
+    font-size: 16px
+}
+
+.feature_box {
+    text-align: justify;
+    border: 1px solid #8f8f8f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.feature_box span {
+    padding: 5px 10px
+}
+
+.border-r {
+    border-right: 1px solid #8f8f8f
+}
+
+.text-color-primary {
+    color: #000;
+    font-size: 24px
+}
+
+.feature_box i {
+    color: gray
+}
+
+.car_selector img {
+    height: auto;
+    padding: 8px
+}
+
+.col-img-bg {
+    background: #28282808
+}
+
+.select-btn {
+    margin: 0;
+    width: 100%
+}
+
+.car_title {
+    font-size: 18px;
+    border-left: 13px solid;
+    padding-left: 10px;
+    margin-left: 11px
+}
+
+.owl-carousel .owl-nav button.owl-next,.owl-carousel .owl-nav button.owl-prev {
+    background: #d1cfcf52!important;
+    font-size: 32px!important;
+    height: 25px!important;
+    width: 50px!important;
+    border-radius: 50px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: -10px;
+    padding: 0 0 9px!important
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    right: 220px
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    left: 230px
+}
+
+.price_footer {
+    border-top: 2px dashed;
+    padding: 10px 0
+}
+
+small {
+    color: #5e5e5e;
+    font-weight: 800!important;
+    font-size: 10px!important;
+    line-height: 12px;
+    letter-spacing: 1px;
+    opacity: .7;
+    padding: 0
+}
+
+#no_bags,.couter_box .btn,.couter_box .form-control,.duration_btn_min,.duration_btn_plus,.duration_hour,.duration_min,.minus_btn,.minus_btn_luggage,.no_of_passenger,.plus_btn,.plus_btn_luggage {
+    border-radius: 0!important
+}
+
+#no_bags,.duration_hour,.duration_min,.no_of_passenger {
+    text-align: center;
+    height: 42px;
+    padding-left: 22px;
+    padding-right: 22px
+}
+
+.card {
+    box-shadow: 0 2px 8px rgba(0,0,0,.25);
+    overflow: hidden
+}
+
+.nav-tabs .nav-link1 {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700
+}
+
+.nav-tabs .nav-link1.active {
+    border-bottom: 2px solid;
+    text-decoration: none;
+    color: #000
+}
+
+.drop_box ul li {
+    list-style: none
+}
+
+.drop_box ul {
+    margin-bottom: 0;
+    padding: 0
+}
+
+.drop_box ul li a {
+    color: #000;
+    text-decoration: none
+}
+
+.drop_box {
+    padding: 10px;
+    background: #fff;
+    box-shadow: 0 2px 12px #d3d3d3;
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    transition: .3s
+}
+
+.car_info {
+    font-size: 24px!important;
+    color: #a9a9a9;
+    position: absolute;
+    top: 0;
+    left: 3px
+}
+
+.car_info:hover {
+    color: #000
+}
+
+.selectedCarImg img {
+    height: 230px;
+    margin-bottom: 1rem
+}
+
+.bootstrap-datetimepicker-widget table td span {
+    height: 30px!important;
+    line-height: 24px!important
+}
+
+.datepicker-days {
+    padding: 0 10px!important
+}
+
+.bootstrap-datetimepicker-widget button[data-action] {
+    background-color: #000!important;
+    border-color: #121212!important
+}
+
+.extra-pass-item {
+    padding: 10px!important;
+    list-style: none;
+    margin-bottom: 1rem
+}
+
+.extra-pass-item:hover {
+    background: #f7f7f7
+}
+
+.btn-icon {
+    display: none
+}
+
+#hourly_btn:hover+.hourlymod,.extra-pass-item:hover .btn-icon {
+    display: block
+}
+
+.extra-pass-item .btn-icon:hover {
+    display: block;
+    background: #d59f25!important;
+    color: #fff!important
+}
+
+.switch-field {
+    display: flex;
+    overflow: hidden
+}
+
+.switch-field input {
+    position: absolute!important;
+    clip: rect(0,0,0,0);
+    height: 1px;
+    width: 1px;
+    border: 0;
+    overflow: hidden
+}
+
+.switch-field label {
+    background-color: #e4e4e4;
+    color: rgba(0,0,0,.6);
+    font-size: 14px;
+    padding: 8px 16px;
+    margin-right: -1px;
+    border: 1px solid rgba(0,0,0,.2);
+    box-shadow: inset 0 1px 3px rgba(0,0,0,.3) , 0 1px rgba(255,255,255,.1);
+    transition: .1s ease-in-out
+}
+
+.switch-field input:checked+label {
+    background-color: #ffca4c;
+    box-shadow: none
+}
+
+.switch-field label:first-of-type {
+    border-radius: 4px 0 0 4px
+}
+
+.switch-field label:last-of-type {
+    border-radius: 0 4px 4px 0
+}
+
+.hoverdiv.hourlymod {
+    position: absolute;
+    width: 583px;
+    left: auto;
+    top: 60px;
+    right: 0;
+    padding: 20px;
+    text-align: left;
+    background: #e9e9e9;
+    border-radius: 15px;
+    z-index: 1;
+    display: none
+}
+
+.hoverdiv.hourlymod p {
+    color: #e13527;
+    font-size: 16px;
+    line-height: 18px;
+    border-bottom: 1px solid #bbc1d2;
+    padding-bottom: 6px;
+    margin-bottom: 22px;
+    padding-left: 20px
+}
+
+.svg-bg-curr-loc {
+    background-image: url(https://www.gstatic.com/images/icons/material/system_gm/1x/my_location_gm_blue_18dp.png)
+}
+
+.ors-suggest-list.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 17px;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    list-style: none;
+    font-size: 14px;
+    text-align: left;
+    background: padding-box #fefefe;
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175)
+}
+
+.ors-suggest-list .ors-suggest-group {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none
+}
+
+.ors-suggest-list .suggest-item {
+    padding: 8px 15px 8px 35px;
+    border-bottom: 1px solid rgba(0,0,0,.03);
+    position: relative;
+    cursor: default
+}
+
+.suggest-item [class*=" svg-bg-"],.suggest-item [class^="svg-bg-"] {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-size: 15px 15px
+}
+
+#returnService {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: auto;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    width: 100%;
+    backdrop-filter: blur(1px);
+    background: #00000082;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none
+}
+
+#returnService::-webkit-scrollbar {
+    display: none
+}
+
+#booster,#forward_facing,#rear_facing,#return_booster,#return_forward_facing,#return_rear_facing {
+    background-size: 20px!important;
+    background-position: 16px!important;
+    background-repeat: no-repeat!important;
+    padding-left: 45px;
+    margin: 0!important;
+    border: none;
+    height: 3rem
+}
+
+#booster,#return_booster {
+    background: url(https://www.vipridez.com/images/xbooster.png.pagespeed.ic.90BCpiqBhF.webp)
+}
+
+#rear_facing,#return_rear_facing {
+    background: url(https://www.vipridez.com/images/xrear.png.pagespeed.ic.NXXTM0TZVD.webp)
+}
+
+#forward_facing,#return_forward_facing {
+    background: url(https://www.vipridez.com/images/xforward.png.pagespeed.ic.9zzoXS4sA2.webp)
+}
+
+.select_icon {
+    background: url(https://www.vipridez.com/images/xarrow-org.png.pagespeed.ic.21M2ofd-MK.webp);
+    width: 100%!important;
+    display: inline-block!important;
+    background-repeat: no-repeat!important;
+    background-position: 97% 51%!important;
+    overflow: hidden!important;
+    box-shadow: 0 4px 16px rgba(96,115,168,.2);
+    -ms-box-shadow: 0 4px 16px rgba(96,115,168,.2);
+    -webkit-box-shadow: 0 4px 16px rgba(96,115,168,.2)
+}
+
+.pill-badge-secondary {
+    background-color: #ba895d;
+    -webkit-box-shadow: -.5px 4.33px 16px 0 rgba(186,137,93,.25);
+    box-shadow: -.5px 4.33px 16px 0 rgba(186,137,93,.25)
+}
+
+.pill-badge-warning {
+    background-color: #f0a500;
+    -webkit-box-shadow: -.5px 4.33px 16px 0 rgba(226,198,54,.25);
+    box-shadow: -.5px 4.33px 16px 0 rgba(226,198,54,.25)
+}
+
+.rounded-pill:hover {
+    box-shadow: none
+}
+
+.rounded-pill {
+    border-radius: 50rem!important;
+    color: #fff;
+    font-size: 9px;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 5px 9px
+}
+
+.badge {
+    display: inline-block;
+    padding: .35em .65em;
+    font-size: .75em;
+    font-weight: 700;
+    color: #fff;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem
+}
+
+.table-hover a:not([href]):not([tabindex]) {
+    background: 0 0!important
+}
+
+.pill-badge-dark {
+    background-color: #2c323f;
+    -webkit-box-shadow: -.5px 4.33px 16px 0 rgba(44,50,63,.25);
+    box-shadow: -.5px 4.33px 16px 0 rgba(44,50,63,.25)
+}
+
+.pill-badge-danger {
+    background-color: #d22d3d;
+    -webkit-box-shadow: -.5px 4.33px 16px 0 rgba(210,45,61,.25);
+    box-shadow: -.5px 4.33px 16px 0 rgba(210,45,61,.25)
+}
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm:focus {
+    box-shadow: 0 0 0 3px rgb(255 152 0 / 46%)!important
+}
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+    background-color: #ff9800!important
+}
+
+.booked_table .table thead th {
+    text-wrap: nowrap
+}
+
+.stop_location_val {
+    white-space: pre-line
+}
+
+.clockpicker-button.am-button,.clockpicker-button.pm-button {
+    color: #000!important
+}
+
+.col-img-bg .services-item-image img {
+    width: 230px;
+    height: 160px;
+    object-fit: contain
+}
+
+@media only screen and (min-width: 768px) and (max-width:1023px) {
+    .text-color-primary {
+        color:#000;
+        font-size: 20px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .call_us_btn,.select-btn {
+        border-radius:0 1px 12px 12px!important
+    }
+
+    #submit_form,.mobile_dir,.upper_head {
+        flex-direction: column
+    }
+
+    .main-section {
+        padding: 2rem 0!important
+    }
+
+    .modal-footer {
+        padding: .75rem 0 0!important
+    }
+
+    .mobile_col {
+        width: 50%!important
+    }
+
+    .hoverdiv.hourlymod {
+        width: 330px;
+        right: -50px;
+        padding: 15px 15px 15px 0
+    }
+
+    .seat_img {
+        width: 80px
+    }
+
+    .max-height {
+        max-height: 420px
+    }
+
+    .mobile_pos {
+        text-align: center
+    }
+
+    #carDetailModal .modal-body .px-5,.col-pad {
+        padding: 0!important
+    }
+
+    .select-btn {
+        width: 100%;
+        margin: 0
+    }
+
+    .col-content-pos {
+        display: flex;
+        justify-content: center
+    }
+
+    .car_selector img {
+        width: 200px!important
+    }
+
+    .mobile_col_w {
+        width: 33%!important
+    }
+
+    #carDetailModal .modal-footer,#forgetPasswordModal .modal-footer,#login_form_data .modal-footer,#registerationModal .modal-footer {
+        padding-bottom: .75rem!important
+    }
+
+    .d-lg-none {
+        display: none
+    }
+
+    #datepicker {
+        margin-bottom: .75rem
+    }
+
+    .editable-field-group-icon {
+        flex-direction: column-reverse
+    }
+
+    .btn-icon {
+        cursor: pointer;
+        display: block!important
+    }
+
+    .overlay-icon {
+        margin-bottom: .5rem
+    }
+
+    .extra-pass-item {
+        background: #f7f7f7
+    }
+
+    #returnService .modal-body {
+        padding: 1rem 0
+    }
+
+    .main_footer_modal {
+        flex-direction: column;
+        margin: 1rem 0
+    }
+
+    .mobile_dir .form-header {
+        margin-bottom: 1rem!important
+    }
+
+    .text_wrap {
+        height: 3.2em; /* Fixed height of the container to manage text overflow */
+        overflow: hidden; /* Hide any overflowed text */
+        text-overflow: ellipsis; /* Add ellipsis for hidden text */
+        display: -webkit-box; /* Use the WebKit box model for layout */
+        -webkit-line-clamp: 2; /* Limit text to 2 lines - WebKit-specific */
+        -webkit-box-orient: vertical; /* Vertical stacking of text - WebKit-specific */
+    }
+    
+}
